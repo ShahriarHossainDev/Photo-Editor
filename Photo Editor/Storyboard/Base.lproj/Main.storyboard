@@ -23,9 +23,17 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGx-06-wv5">
-                                <rect key="frame" x="20" y="304" width="374" height="32.5"/>
+                                <rect key="frame" x="20" y="314" width="374" height="32.5"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Get Photo">
+                                <buttonConfiguration key="configuration" style="gray" title="Get New Photo">
+                                    <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.1176470588" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZF-Ze-GAY">
+                                <rect key="frame" x="20" y="366.5" width="374" height="32.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Edit Photo">
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.1176470588" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
@@ -34,10 +42,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zGx-06-wv5" firstAttribute="top" secondItem="hDU-zy-Tab" secondAttribute="bottom" constant="20" id="0dl-JO-icN"/>
+                            <constraint firstItem="zGx-06-wv5" firstAttribute="top" secondItem="hDU-zy-Tab" secondAttribute="bottom" constant="30" id="0dl-JO-icN"/>
                             <constraint firstItem="hDU-zy-Tab" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Az-4a-Uez"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zGx-06-wv5" secondAttribute="trailing" constant="20" id="Dgv-bv-ukK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cZF-Ze-GAY" secondAttribute="trailing" constant="20" id="LEO-L4-GNr"/>
+                            <constraint firstItem="cZF-Ze-GAY" firstAttribute="top" secondItem="zGx-06-wv5" secondAttribute="bottom" constant="20" id="VOD-Wt-hn3"/>
                             <constraint firstItem="zGx-06-wv5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wfh-u4-qsN"/>
+                            <constraint firstItem="cZF-Ze-GAY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="doA-X6-I1c"/>
                             <constraint firstItem="hDU-zy-Tab" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="gLv-uO-kSn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hDU-zy-Tab" secondAttribute="trailing" constant="20" id="rqX-Ub-b4C"/>
                         </constraints>
