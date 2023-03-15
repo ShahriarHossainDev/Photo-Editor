@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var getNewPhotoButton: UIButton!
-    @IBOutlet weak var editPhotoButton: UIButton!
+    @IBOutlet weak var savePhotoButton: UIButton!
     
     var resultImageEditModel: ZLEditImageModel?
     
@@ -124,8 +124,9 @@ class HomeViewController: UIViewController {
         self.showDetailViewController(picker, sender: nil)
     }
     
-    @IBAction func editPhotoButtonAction(_ sender: UIButton) {
-        print("Edit Photo")
+    @IBAction func savePhotoButtonAction(_ sender: UIButton) {
+        
+        
     }
 }
 
