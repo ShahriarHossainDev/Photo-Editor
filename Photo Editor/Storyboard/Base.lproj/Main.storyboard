@@ -29,6 +29,9 @@
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.1176470588" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="getNewPhotoButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UVk-2G-JMD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZF-Ze-GAY">
                                 <rect key="frame" x="20" y="366.5" width="374" height="32.5"/>
@@ -37,6 +40,9 @@
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.1176470588" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="editPhotoButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1EM-Zy-fLz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -53,6 +59,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hDU-zy-Tab" secondAttribute="trailing" constant="20" id="rqX-Ub-b4C"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="editPhotoButton" destination="cZF-Ze-GAY" id="wEi-Uq-5QY"/>
+                        <outlet property="getNewPhotoButton" destination="zGx-06-wv5" id="rqf-6H-j6W"/>
+                        <outlet property="photoImageView" destination="hDU-zy-Tab" id="7Is-aR-0Zt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
