@@ -16,18 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo Editor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Quc-qQ-OgB">
-                                <rect key="frame" x="117" y="431" width="180" height="34.5"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.1176470588" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appstore" translatesAutoresizingMaskIntoConstraints="NO" id="hDU-zy-Tab">
+                                <rect key="frame" x="20" y="84" width="374" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="v3i-uJ-ddN"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGx-06-wv5">
+                                <rect key="frame" x="20" y="304" width="374" height="32.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Get Photo">
+                                    <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.1176470588" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Quc-qQ-OgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ol7-Tt-tO4"/>
-                            <constraint firstItem="Quc-qQ-OgB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="R9D-b6-GaG"/>
+                            <constraint firstItem="zGx-06-wv5" firstAttribute="top" secondItem="hDU-zy-Tab" secondAttribute="bottom" constant="20" id="0dl-JO-icN"/>
+                            <constraint firstItem="hDU-zy-Tab" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Az-4a-Uez"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zGx-06-wv5" secondAttribute="trailing" constant="20" id="Dgv-bv-ukK"/>
+                            <constraint firstItem="zGx-06-wv5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wfh-u4-qsN"/>
+                            <constraint firstItem="hDU-zy-Tab" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="gLv-uO-kSn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hDU-zy-Tab" secondAttribute="trailing" constant="20" id="rqX-Ub-b4C"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +49,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="appstore" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
