@@ -1,0 +1,18 @@
+PODS:
+  - ZLImageEditor (1.1.6):
+    - ZLImageEditor/Core (= 1.1.6)
+  - ZLImageEditor/Core (1.1.6)
+
+DEPENDENCIES:
+  - ZLImageEditor
+
+SPEC REPOS:
+  trunk:
+    - ZLImageEditor
+
+SPEC CHECKSUMS:
+  ZLImageEditor: 4e340ff5eda3362087e780b9d87243e3920c099a
+
+PODFILE CHECKSUM: e3f412472c1361d55fd872b36b9f90b3e90fd7ca
+
+COCOAPODS: 1.11.2
