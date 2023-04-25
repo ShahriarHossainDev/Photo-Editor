@@ -2,7 +2,12 @@
 
  Photo Editor powerful image editor framework. Supports graffiti, cropping, mosaic, text stickers, picture stickers, filters, adjust(brightness, contrast, saturation).
  
- <img src="https://github.com/longitachi/ImageFolder/blob/master/ZLImageEditor/ZLImageEditor.png" width = "277" height = "600" div align=center/>
+<img src="https://github.com/ShahriarHossainDev/Photo-Editor/blob/main/Image/1.png" width = "277" height = "600" div align=center/>
+<img src="https://github.com/ShahriarHossainDev/Photo-Editor/blob/main/Image/2.png" width = "277" height = "600" div align=center/>
+<img src="https://github.com/ShahriarHossainDev/Photo-Editor/blob/main/Image/3.png" width = "277" height = "600" div align=center/>
+<img src="https://github.com/ShahriarHossainDev/Photo-Editor/blob/main/Image/4.png" width = "277" height = "600" div align=center/>
+<img src="https://github.com/ShahriarHossainDev/Photo-Editor/blob/main/Image/5.png" width = "277" height = "600" div align=center/>
+<img src="https://github.com/ShahriarHossainDev/Photo-Editor/blob/main/Image/6.png" width = "277" height = "600" div align=center/>
 
 ---------------
  
