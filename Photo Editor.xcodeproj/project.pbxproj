@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80E8A49728B935D6442ACFB7 /* Pods_Photo_Editor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6CF239A66D38B83B7A0939 /* Pods_Photo_Editor.framework */; };
+		FA10DB3029F84C4A007868E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA10DB2F29F84C4A007868E6 /* README.md */; };
 		FA58039229C1891A0076B5C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58039129C1891A0076B5C6 /* Constants.swift */; };
 		FA5803A729C189DB0076B5C6 /* AbrahamLincoln.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA58039429C189DA0076B5C6 /* AbrahamLincoln.ttf */; };
 		FA5803A829C189DB0076B5C6 /* cubano-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA58039529C189DA0076B5C6 /* cubano-regular-webfont.ttf */; };
@@ -79,6 +80,7 @@
 /* Begin PBXFileReference section */
 		76344C067618FAF2B6F4E987 /* Pods-Photo Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Editor.debug.xcconfig"; path = "Target Support Files/Pods-Photo Editor/Pods-Photo Editor.debug.xcconfig"; sourceTree = "<group>"; };
 		9B4B1B15617EF97769C8C3DC /* Pods-Photo Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Editor.release.xcconfig"; path = "Target Support Files/Pods-Photo Editor/Pods-Photo Editor.release.xcconfig"; sourceTree = "<group>"; };
+		FA10DB2F29F84C4A007868E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FA58039129C1891A0076B5C6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FA58039429C189DA0076B5C6 /* AbrahamLincoln.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AbrahamLincoln.ttf; sourceTree = "<group>"; };
 		FA58039529C189DA0076B5C6 /* cubano-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cubano-regular-webfont.ttf"; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 		FA79A52329C17C4200EF6539 = {
 			isa = PBXGroup;
 			children = (
+				FA10DB2F29F84C4A007868E6 /* README.md */,
 				FA79A52E29C17C4200EF6539 /* Photo Editor */,
 				FA79A52D29C17C4200EF6539 /* Products */,
 				3373B14FD661BB9D33A144F4 /* Pods */,
@@ -437,6 +440,7 @@
 				FA5803B629C189DB0076B5C6 /* MavenProLight-200.otf in Resources */,
 				FA5803AB29C189DB0076B5C6 /* vevey.ttf in Resources */,
 				FA5803B829C189DB0076B5C6 /* Liberator.ttf in Resources */,
+				FA10DB3029F84C4A007868E6 /* README.md in Resources */,
 				FA5803B929C189DB0076B5C6 /* Homestead-Regular.ttf in Resources */,
 				FA5803AE29C189DB0076B5C6 /* Haymaker.ttf in Resources */,
 				FA5803B329C189DB0076B5C6 /* Tommaso.ttf in Resources */,
